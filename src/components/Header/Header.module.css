@@ -1,0 +1,92 @@
+.header {
+    width: 100vw;
+}
+
+.container {
+    margin: 0 10vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.headerTop {
+    display: flex;
+    flex-direction: row;
+}
+
+.email {
+    flex: 1;
+}
+
+.phone {
+    flex: 1;
+    display: flex;
+    justify-content: end;
+}
+
+.headerMain {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 165px;
+    height: 52px;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.search {
+    flex: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search input{
+    height: 2.5rem;
+    width: 38rem;
+    padding-left: 1rem;
+    background-color: #f9f9f9;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+}
+
+.search button {
+    height: 2.5rem;
+    width: 5rem;
+    background-color: #2567b7;
+    border: 1px solid #FFF;
+    border-radius: 15px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.search button:hover {
+    opacity: 0.7;
+}
+
+.login {
+    flex: 0.5;
+    display: flex;
+    justify-content: center;
+}
+
+.cart {
+    flex: 0.5;
+    display: flex;
+    justify-content: center;
+}
+
+.headerBotton {
+
+}
+
+.headerBotton nav ul li{
+    cursor: pointer;
+}
