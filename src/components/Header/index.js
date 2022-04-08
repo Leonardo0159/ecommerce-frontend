@@ -1,4 +1,8 @@
 import styles from "./Header.module.css";
+import { BsSearch,  BsCartFill, BsTelephoneFill} from "react-icons/bs";
+import { FaUserCircle } from "react-icons/fa";
+import { AiOutlineMail } from "react-icons/ai";
+
 
 export const Header = () => {
   return (
@@ -6,36 +10,34 @@ export const Header = () => {
       <div className={styles.container}>
         <div className={styles.headerTop}>
           <div className={styles.email}>
-            <span>contato@ecommerce.com</span>
+            <AiOutlineMail /><span>contato@ecommerce.com</span>
           </div>
           <div className={styles.phone}>
-            <span>(41) 9 9999-9999</span>
+            <BsTelephoneFill /><span>(41) 9 9999-9999</span>
           </div>
         </div>
         <div className={styles.headerMain}>
           <div className={styles.logo}>
-            <img src="/logoKanui.png" />
+            <img src="/logoHarve.png" />
           </div>
           <div className={styles.search}>
             <input placeholder="Pesquise Aqui"/>
-            <button>Pesquisar</button>
+            <button><BsSearch size={20}/></button>
           </div>
           <div className={styles.login}>
-            <button>Logar</button>
-          </div>
-          <div className={styles.cart}>
-            <button>Carrinho</button>
+            <button><FaUserCircle size={20}/></button>
+            <button><BsCartFill size={20}/></button>
           </div>
         </div>
         <div className={styles.headerBotton}>
           <nav>
             <ul>
-              <li>Homens</li>
-              <li>Mulheres</li>
-              <li>Camisas</li>
-              <li>Calças</li>
-              <li>Sapatos</li>
-              <li>Acessórios</li>
+              <li>HOMENS</li>
+              <li>MULHERES</li>
+              <li>CAMISAS</li>
+              <li>CALÇAS</li>
+              <li>SAPATOS</li>
+              <li>ACESSÓRIOS</li>
             </ul>
           </nav>
         </div>
