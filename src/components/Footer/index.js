@@ -75,7 +75,7 @@ export const Footer = () => {
               <AiOutlineMail />
             </div>
             <div className={styles.contactDescription}>
-              <span>ecoomerce@harve.com</span>
+              <span>ecommerce@harve.com</span>
             </div>
           </div>
           <div className={styles.contactDetails}>

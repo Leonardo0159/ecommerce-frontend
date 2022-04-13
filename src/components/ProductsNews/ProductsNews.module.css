@@ -1,0 +1,61 @@
+.productsNews {
+    width: 100vw;
+}
+
+.container {
+    margin: 0 15vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 18px;
+}
+
+.boxes {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.box {
+    width: 15rem;
+    height: 20rem;
+    background-color: #CCC;
+    border: 1px solid #CCC;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imageProduct {
+    margin-top: 0.5rem;
+    width: 180px;
+    height: 210px;
+}
+
+.imageProduct img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.nameProduct {
+
+}
+
+.nameProduct h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.valueProduct {
+    color: red;
+}
+
+.valueProduct h3{
+    margin: 0;
+    padding: 0;
+}

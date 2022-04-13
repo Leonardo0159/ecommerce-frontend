@@ -1,5 +1,5 @@
 .banner {
-    background-image: url("../../assets/images/lacoste.gif");
+    background-image: url("../../assets/gifs/lacoste.gif");
     background-size: cover;
     background-position: center;
     width: 100vw;
@@ -7,7 +7,7 @@
 }
 
 .container {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.2);
     width: 100%;
     height: 100%;
     display: flex;
