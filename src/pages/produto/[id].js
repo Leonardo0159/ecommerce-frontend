@@ -1,21 +1,24 @@
 import Head from "next/head";
 import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
+import { ProductPresentation } from "../../components/ProductPresentation";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
 import { fazGet } from "../../services/api";
+import { useState } from "react";
 
 export default function Product() {
+  const [dataProduct, setDataProduct] = useState();
   const router = useRouter();
 
   useEffect(() => {
-    if (typeof router.query.id != "undefined") {
+    if (router.query.id) {
   
       let url = "http://127.0.0.1:8000/api/product/list/" + router.query.id;
 
       console.log(url);
 
-      fazGet(url);
+      fazGet(url).then(data => setDataProduct(data));
 
     }
   } , [router]);
@@ -29,7 +32,7 @@ export default function Product() {
       </Head>
 
       <Header />
-
+      <ProductPresentation product={dataProduct}/>
       <Footer />
     </div>
   );

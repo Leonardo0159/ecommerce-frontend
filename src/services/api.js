@@ -17,4 +17,5 @@ export const fazGet = async (url) => {
     .then(res => res.json())
     .catch(err => console.error(err))
     console.log(data)
+    return data;
 }

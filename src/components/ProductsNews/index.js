@@ -9,7 +9,7 @@ export const ProductsNews = () => {
           <h2>NOVIDADES</h2>
         </div>
         <div className={styles.boxes}>
-          <Link href="/">
+          <Link href="/produto/2">
             <div className={styles.box}>
               <div className={styles.imageProduct}>
                 <img src="/CamisaVolcom.png" />
@@ -22,39 +22,6 @@ export const ProductsNews = () => {
               </div>
             </div>
           </Link>
-          <div className={styles.box}>
-            <div className={styles.imageProduct}>
-              <img src="/CamisaVolcom.png" />
-            </div>
-            <div className={styles.nameProduct}>
-              <h3>Camiseta Volcom</h3>
-            </div>
-            <div className={styles.valueProduct}>
-              <h3>R$119,90</h3>
-            </div>
-          </div>
-          <div className={styles.box}>
-            <div className={styles.imageProduct}>
-              <img src="/CamisaVolcom.png" />
-            </div>
-            <div className={styles.nameProduct}>
-              <h3>Camiseta Volcom</h3>
-            </div>
-            <div className={styles.valueProduct}>
-              <h3>R$119,90</h3>
-            </div>
-          </div>
-          <div className={styles.box}>
-            <div className={styles.imageProduct}>
-              <img src="/CamisaVolcom.png" />
-            </div>
-            <div className={styles.nameProduct}>
-              <h3>Camiseta Volcom</h3>
-            </div>
-            <div className={styles.valueProduct}>
-              <h3>R$119,90</h3>
-            </div>
-          </div>
         </div>
       </div>
     </div>

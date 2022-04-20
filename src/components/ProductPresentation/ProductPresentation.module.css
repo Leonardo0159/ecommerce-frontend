@@ -1,0 +1,190 @@
+.productPresentation {
+    background-color: #f4f4f4;
+    width: 100vw;
+}
+
+.container {
+    margin: 0 15vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.sideLeft {
+    flex: 1;
+}
+
+.boxImage {
+    margin: 1rem 0;
+    background-color: #fff;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.presentationImage {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 436px;
+    height: 387px;
+}
+
+.presentationImage img{
+    width: 100%;
+    height: 100%;
+}
+
+.carousel {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.carouselImage {
+    width: 131px;
+    height: 116px;
+}
+
+.carouselImage img{
+    width: 100%;
+    height: 100%;
+}
+
+.sideRight {
+    flex: 1;
+}
+
+.box {
+    margin: 1rem 0;
+    background-color: #fff;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.productTitle {
+    margin-bottom: 1rem;
+    font-size: 28px;
+}
+
+.productTitle h3{
+    margin: 0;
+    padding: 0;
+}
+
+.overallRating {
+    margin-bottom: 0.5rem;
+}
+
+.bestSeller {
+    margin-bottom: 1rem;
+    color: rgb(78, 78, 78);
+}
+
+.bestSeller span{
+    background-color: #1d293c;
+    color: white;
+    padding: 0.1rem 0.2rem;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.promotion {
+    color: #ab5454;
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+
+.value {
+    margin-bottom: 1rem;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.value span{
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.paymentMethods {
+    margin-bottom: 1rem;
+}
+
+.btn {
+
+}
+
+.btn button {
+    height: 4rem;
+    width: 100%;
+    background-color: #009def;
+    border: 1px solid #009def;
+    border-radius: 5px;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.btn button:hover {
+    background-color: #0081c4;
+    border: 1px solid #0081c4;
+    color: #FFF;
+}
+
+.safeBuy {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.safeBuyBox {
+    flex: 1;
+    margin: 1rem 0;
+    background-color: #fff;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 0;
+    padding-left: 1rem;
+    gap: 1rem;
+    align-items: center;
+}
+
+.iconSafeBuy {
+    width: 35px;
+    height: 35px;
+}
+
+.iconSafeBuy img{
+    width: 100%;
+    height: 100%;
+}
+
+.textSafeBuy {
+    font-size: 18px;
+}
+
+.textSafeBuy span{
+    font-weight: 500;
+}
+
+
+@media screen and (max-width: 768px) {
+
+}
