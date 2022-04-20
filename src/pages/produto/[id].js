@@ -18,7 +18,7 @@ export default function Product() {
       fazGet(url);
 
     }
-  });
+  } , [router]);
 
   return (
     <div>
