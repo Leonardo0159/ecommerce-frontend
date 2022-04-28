@@ -23,6 +23,20 @@ nav ul {
   gap: 1rem;
 }
 
+/*configuração do carousel*/
+.image-gallery-svg{
+  display: none;
+}
+
+.image-gallery-image{
+  height: 300px;
+}
+
+.image-gallery-thumbnail-image{
+  height: 100px;
+}
+/*fim carousel*/
+
 /* width */
 ::-webkit-scrollbar {
   width: 5px;
@@ -42,4 +56,10 @@ nav ul {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
+}
+
+@media screen and (max-width: 768px) {
+  .image-gallery-thumbnail-image{
+    height: 75px;
+  }
 }

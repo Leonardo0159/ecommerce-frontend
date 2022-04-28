@@ -9,8 +9,6 @@ export const fazGet = async (url) => {
         },
     };
     
-    console.log("teste: "+url);
-
     const request = new Request(url, requestOptions)
 
     const data = await fetch(request)

@@ -1,17 +1,33 @@
 import { useState, useEffect } from "react";
 import { FaRegStar, FaStar, FaStarHalfAlt } from "react-icons/fa";
 import styles from "./ProductPresentation.module.css";
+import { Carousel } from "../Carousel";
 
 export const ProductPresentation = (props) => {
   const [nameProduct, setNameProduct] = useState();
   const [valueProduct, setValueProduct] = useState();
   const [oldValueProduct, setOldValueProduct] = useState();
 
+  const images = [
+    {
+      original: "/CamisaVolcom.png",
+      thumbnail: "/CamisaVolcom.png",
+    },
+    {
+      original: "/CamisaVolcom2.png",
+      thumbnail: "/CamisaVolcom2.png",
+    },
+    {
+      original: "/CamisaVolcom3.png",
+      thumbnail: "/CamisaVolcom3.png",
+    },
+  ];
+
   useEffect(() => {
     if (props.product) {
-        setNameProduct(props.product.name);
-        setValueProduct("79,90")
-        setOldValueProduct("99,90")
+      setNameProduct(props.product.name);
+      setValueProduct("119,90");
+      setOldValueProduct("149,90");
     }
   });
 
@@ -21,20 +37,7 @@ export const ProductPresentation = (props) => {
         <div className={styles.presentation}>
           <div className={styles.sideLeft}>
             <div className={styles.boxImage}>
-              <div className={styles.presentationImage}>
-                <img src="/CamisaVolcom.png" />
-              </div>
-              <div className={styles.carousel}>
-                <div className={styles.carouselImage}>
-                  <img src="/CamisaVolcom.png" />
-                </div>
-                <div className={styles.carouselImage}>
-                  <img src="/CamisaVolcom.png" />
-                </div>
-                <div className={styles.carouselImage}>
-                  <img src="/CamisaVolcom.png" />
-                </div>
-              </div>
+              <Carousel images={images} />
             </div>
           </div>
           <div className={styles.sideRight}>
