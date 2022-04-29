@@ -26,8 +26,6 @@ export default function Product() {
     }
   }, [router]);
 
-  console.log("Loading: ", loading);
-
   return (
     <div>
       <Head>

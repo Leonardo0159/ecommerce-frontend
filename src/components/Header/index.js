@@ -2,6 +2,7 @@ import styles from "./Header.module.css";
 import { BsSearch, BsCartFill, BsTelephoneFill } from "react-icons/bs";
 import { FaUserCircle } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
+import Link from "next/link";
 
 export const Header = () => {
   return (
@@ -18,9 +19,11 @@ export const Header = () => {
           </div>
         </div>
         <div className={styles.headerMain}>
-          <div className={styles.logo}>
-            <img src="/logoHarve.png" />
-          </div>
+          <Link href="/">
+            <div className={styles.logo}>
+              <img src="/logoHarve.png" />
+            </div>
+          </Link>
           <div className={styles.search}>
             <input placeholder="Pesquise Aqui" />
             <button>
