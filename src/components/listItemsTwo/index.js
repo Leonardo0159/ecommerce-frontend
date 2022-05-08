@@ -10,37 +10,6 @@ import BarChartIcon from '@mui/icons-material/BarChart';
 import LayersIcon from '@mui/icons-material/Layers';
 import AssignmentIcon from '@mui/icons-material/Assignment';
 
-export const mainListItems = () => {
-    return (
-        <React.Fragment>
-            <ListItemButton>
-                <ListItemIcon>
-                    <DashboardIcon />
-                </ListItemIcon>
-                <ListItemText primary="Dashboard" />
-            </ListItemButton>
-            <ListItemButton>
-                <ListItemIcon>
-                    <ShoppingCartIcon />
-                </ListItemIcon>
-                <ListItemText primary="Pedidos" />
-            </ListItemButton>
-            <ListItemButton>
-                <ListItemIcon>
-                    <PeopleIcon />
-                </ListItemIcon>
-                <ListItemText primary="Clientes" />
-            </ListItemButton>
-            <ListItemButton>
-                <ListItemIcon>
-                    <BarChartIcon />
-                </ListItemIcon>
-                <ListItemText primary="Relatórios" />
-            </ListItemButton>
-        </React.Fragment>
-    )
-}
-
 export const secondaryListItems = () => {
     return (
         <React.Fragment>
