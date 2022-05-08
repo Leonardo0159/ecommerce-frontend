@@ -20,8 +20,8 @@ import NotificationsIcon from '@mui/icons-material/Notifications';
 import Chart from './Chart';
 import Deposits from './Deposits';
 import Orders from './Orders';
-import { ListItems } from '../../components/listItems';
-import { ListItemsTwo } from '../../components/listItemsTwo';
+import { ListItems } from '../../components/AppBar/ListItems';
+import { ListItemsTwo } from '../../components/AppBar/ListItemsTwo';
 
 function Copyright(props) {
     return (
