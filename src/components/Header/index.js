@@ -31,9 +31,11 @@ export const Header = () => {
             </button>
           </div>
           <div className={styles.login}>
-            <button>
-              <FaUserCircle size={20} />
-            </button>
+            <Link href="/admin">
+              <button>
+                <FaUserCircle size={20} />
+              </button>
+            </Link>
             <button>
               <BsCartFill size={20} />
             </button>
