@@ -5,7 +5,7 @@ import TableBody from '@mui/material/TableBody';
 import TableCell from '@mui/material/TableCell';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
-import Title from './Title';
+import Title from '../Title';
 
 // Generate Order Data
 function createData(id, date, name, shipTo, paymentMethod, amount) {
@@ -52,7 +52,7 @@ function preventDefault(event) {
     event.preventDefault();
 }
 
-export default function Orders() {
+export const Orders = () => {
     return (
         <React.Fragment>
             <Title>Pedidos Recentes</Title>
